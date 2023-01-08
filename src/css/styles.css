@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: gainsboro;
+  background-color: black;
+  color: silver;
 }
 
 h1 {
@@ -10,6 +11,10 @@ h1 {
 
 h2 {
   color: #4D4C7D;
+  text-align: center;
+}
+
+p{
   text-align: center;
 }
 
@@ -26,9 +31,10 @@ thead {
 
 td {
   border-top: 1px #466995;
+  border: dotted 1px
 }
 
 .code {
   font-family: monospace;
-  background-color: beige;
+  background-color: #7c0505;
 }
