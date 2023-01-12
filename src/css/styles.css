@@ -15,26 +15,50 @@ h2 {
 }
 
 p{
-  text-align: center;
-}
+    text-align: center;
+  }
 
 table {
   border: 2px solid #466995;
   width: 650px;
   margin: 0 auto;
+  border-radius: 5px;
 }
 
 thead {
   background-color: #4D4C7D;
   color: whitesmoke;
+  border-radius: 5px;
 }
 
 td {
-  border-top: 1px #466995;
-  border: dotted 1px
+  border: dotted whitesmoke 1px;
+  border-radius: 5px;
 }
 
 .code {
   font-family: monospace;
   background-color: #7c0505;
+  color: #F2F2F2;
+  border-radius: 5px;
+}
+
+.concept{
+  background-color: #7c0505;
+  color: black;
+  border-radius: 5px;
+}
+
+.discription{
+  background-color: #7c0505;
+  color: black;
+  border-radius: 5px;
+}
+
+.table{
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 300px;
+  flex-wrap: wrap;
+  width: 700px;
 }
