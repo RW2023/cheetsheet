@@ -6,7 +6,8 @@ body {
 
 h1 {
   text-align: center;
-  border-bottom: solid #4D4C7D
+  border-bottom: solid #466995;
+  color: #4D4C7D;
 }
 
 h2 {
@@ -20,15 +21,20 @@ p{
 
 table {
   border: 2px solid #466995;
-  width: 650px;
+  width: 700px;
   margin: 0 auto;
   border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-bottom: 25px;
 }
 
 thead {
   background-color: #4D4C7D;
   color: whitesmoke;
   border-radius: 5px;
+  text-transform: uppercase
 }
 
 td {
@@ -45,20 +51,20 @@ td {
 
 .concept{
   background-color: #7c0505;
-  color: black;
+  color: #F2F2F2;
   border-radius: 5px;
+  font-family: monospace;
 }
 
-.discription{
+.description{
   background-color: #7c0505;
-  color: black;
+  color: #F2F2F2;
   border-radius: 5px;
+  font-family: monospace;
 }
 
-.table{
-  display: flex;
-  justify-content: space-around;
-  flex-basis: 300px;
-  flex-wrap: wrap;
-  width: 700px;
+
+.td,
+          .description{
+  background-color: #4D4C7D;
 }
